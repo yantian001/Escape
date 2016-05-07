@@ -1,0 +1,8 @@
+{"c2dictionary":true, "data":{
+	"facebookPage":"http://www.yiv.com",
+	"twitterPage":"http://www.yiv.com",
+	"googlePage":"http://www.yiv.com",
+	"rateUs":"http://www.yiv.com",
+	"moreGames":"http://www.yiv.com",
+	"shareMessage":"I just scored $score at Escape !"
+}}
