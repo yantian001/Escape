@@ -1,0 +1,63 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"Admob\"><param name=\"ios-package\" value=\"Admob\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"ChartboostPlugin\"><param name=\"ios-package\" value=\"ChartboostPlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "com.cranberrygame.phonegap.plugin.ad.admob": {
+            "PACKAGE_NAME": "com.fox.escape"
+        },
+        "com.google.playservices": {
+            "PACKAGE_NAME": "com.fox.escape"
+        },
+        "cordova-plugin-ad-chartboost": {
+            "PACKAGE_NAME": "com.fox.escape"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.fox.escape"
+        }
+    },
+    "dependent_plugins": {},
+    "modules": [
+        {
+            "file": "plugins/com.cranberrygame.phonegap.plugin.ad.admob/www/admob.js",
+            "id": "com.cranberrygame.phonegap.plugin.ad.admob.admob",
+            "pluginId": "com.cranberrygame.phonegap.plugin.ad.admob",
+            "clobbers": [
+                "window.admob"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-ad-chartboost/www/chartboost.js",
+            "id": "cordova-plugin-ad-chartboost.chartboost",
+            "pluginId": "cordova-plugin-ad-chartboost",
+            "clobbers": [
+                "window.chartboost"
+            ]
+        }
+    ],
+    "plugin_metadata": {
+        "com.cranberrygame.phonegap.plugin.ad.admob": "1.0.39",
+        "com.google.playservices": "19.0.0",
+        "cordova-plugin-ad-chartboost": "1.0.81",
+        "cordova-plugin-whitelist": "1.2.2"
+    }
+}

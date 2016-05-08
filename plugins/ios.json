@@ -1,0 +1,25 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.fox.escape"
+        }
+    },
+    "dependent_plugins": {
+        "com.cranberrygame.phonegap.plugin.ad.admob": {
+            "PACKAGE_NAME": "com.fox.escape"
+        },
+        "com.google.playservices": {
+            "PACKAGE_NAME": "com.fox.escape"
+        },
+        "cordova-plugin-ad-chartboost": {
+            "PACKAGE_NAME": "com.fox.escape"
+        }
+    }
+}
